@@ -1,4 +1,3 @@
 # **Studying Stuff**
-> ###### Introduction : Study Object : Front-End
-> ###### First Goal : Learn **Internet,Html,Css and Javascript**
-## Front-End Roadmap Progress
+> #### Introduction : My study towards Programming and IT
+> #### Goal : Build a repository based on my studies and progress in many areas 
