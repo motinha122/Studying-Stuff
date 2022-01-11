@@ -1,2 +1,2 @@
-# Studying Stuff
-##### Studying Progress
+# **Studying Stuff**
+## Front-End Progress
