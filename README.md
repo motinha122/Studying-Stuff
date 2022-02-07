@@ -9,5 +9,9 @@
 
 Internet | HTML | CSS | Javascript
 :------------ | :-------------| :-------------| :-------------
-:heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: | :white_circle:
+:heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: | :clock3:
 
+## At the moment 
+
+> #### 2 HTML and CSS projects done 
+> #### Studying Javascript : In progress 
