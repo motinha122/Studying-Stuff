@@ -6,7 +6,12 @@
 > ###### Introduction : Study Object : Front-End
 > ###### First Goal : Learn the Basic : Internet,Html,Css and Javascript
 ## Front-End Roadmap Progress
-- [X] Internet
-- [ ] HTML
-- [ ] CSS
-- [ ] Javascript
+
+Internet | HTML | CSS | Javascript
+:------------ | :-------------| :-------------| :-------------
+:heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: | :clock3:
+
+## At the moment 
+
+> #### 2 HTML and CSS projects done 
+> #### Studying Javascript : In progress 
