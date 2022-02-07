@@ -9,5 +9,5 @@
 
 Internet | HTML | CSS | Javascript
 :------------ | :-------------| :-------------| :-------------
-:heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: | :white_check_mark:
+:heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: | :white_circle:
 
