@@ -4,7 +4,7 @@ function calcular_troco(valor_pago, valor_compra) {
     let cents = Math.round((troco % 1) * 100)  //calcular centavos
     let reais = Math.floor(troco)                     //calcular reais   
 
-    console.log(`Troco : ${troco} Reais`)
+    console.log(`Troco : ${troco.toFixed(2)} Reais`)
 
     let valor_notas = [100,50,20,10,5,2,1] //valor de cada nota
     let valor_centavos = [50,25,10,5,1]    //valor de cada centavo
@@ -29,7 +29,7 @@ function calcular_troco(valor_pago, valor_compra) {
     calcular(valor_notas)
     calcular(valor_centavos)
 }
-calcular_troco(165, 160)
+calcular_troco(165, 104.99)
 calcular_troco(50, 10)
 
 
@@ -38,7 +38,7 @@ calcular_troco(50, 10)
 
 btn.addEventListener("click",function(e){
     e.preventDefault();
-    const name = document.querySelector("#input-text")
+    const name = document.querySelector("#input-troco")
     const value = name.value;
     console.log(value);
 });*/
