@@ -2,7 +2,6 @@
 body, input {
   font-family: 'Spartan',sans-serif;
   font-weight: bold;
-  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,9 +23,10 @@ body {
 }
 
 input, .mostrar-troco {
+  text-align: center;
+  min-width: auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 20em;
   padding: .5em;
   margin: .5em;
   border-radius: .5em;
@@ -40,10 +40,12 @@ form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

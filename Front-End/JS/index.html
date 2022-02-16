@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <script src="/scripts/script.js" defer></script>
+    <script src="/scripts/mask.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    <div class="'mostrar-troco">
-        a
-    </div>
+    <div id="mostrar-troco "class="'mostrar-troco"></div>
         <form action=""> 
-            <input type="number" name="input-troco" id="input-troco" placeholder="Valor da Compra">
-            <input type="number" name="input-valor-pago" id="input-valor-pago" placeholder="Valor Pago">
+            <div class="input-valores">
+                <input inputmode="numeric" name="input-compra" id="input-compra" placeholder="Valor da Compra" value="0,00">
+                <input inputmode="numeric" name="input-valor-pago" id="input-valor-pago" placeholder="Valor Pago" value="0,00" >
+            </div>
             <input type="submit" id="send" value="Calcular Troco">
         </form>
 </body> 

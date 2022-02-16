@@ -3,7 +3,6 @@
 body, input{
     font-family: 'Spartan',sans-serif;
     font-weight: bold;
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -14,10 +13,10 @@ body{
     height: 98vh;
 }
 
-
 input, .mostrar-troco{
+    text-align: center;
+    min-width: auto;
     box-sizing: border-box;
-    width: 20em;
     padding: .5em;
     margin: .5em;
     border-radius: .5em;
@@ -28,7 +27,8 @@ input, .mostrar-troco{
 
 form{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     align-items:center;
 }
