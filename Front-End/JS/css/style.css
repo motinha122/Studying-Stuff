@@ -20,6 +20,7 @@ body, input {
 
 body {
   height: 98vh;
+  overflow: hidden;
 }
 
 input, .mostrar-troco {
@@ -28,7 +29,6 @@ input, .mostrar-troco {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: .5em;
-  margin: .5em;
   border-radius: .5em;
   border: 0px solid white;
   -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
