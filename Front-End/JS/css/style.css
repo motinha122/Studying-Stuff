@@ -23,12 +23,20 @@ body {
   overflow: hidden;
 }
 
+#send {
+  margin: 0em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 input, .mostrar-troco {
   text-align: center;
   min-width: auto;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   padding: .5em;
+  margin: .5em;
   border-radius: .5em;
   border: 0px solid white;
   -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
