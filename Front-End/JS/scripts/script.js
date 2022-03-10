@@ -29,8 +29,8 @@ function calcular_troco(valor_pago, valor_compra) {
     calcular(valor_notas)
     calcular(valor_centavos)
 }
-calcular_troco(165, 104.99)
-calcular_troco(50, 10)
+calcular_troco(165, 104.93)
+calcular_troco(50, 12.34)
 
 
 
