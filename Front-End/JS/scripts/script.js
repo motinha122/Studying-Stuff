@@ -14,8 +14,9 @@ function calcular_troco(valor_pago, valor_compra) {
         let qtd_notas = [0,0,0,0,0,0,0] //quantidade de notas
         let qtd_centavos = [0,0,0,0,0] // quantidade de centavos
 
-        moeda = (obj == valor_notas) ? reais : cents;
-        array_qtd = (obj == valor_notas) ? qtd_notas : qtd_centavos;
+        moeda = obj == valor_notas ? reais : cents;
+        array_qtd = obj == valor_notas ? qtd_notas : qtd_centavos;
+
         let indice =0;
         for (indice in obj) {
             while (moeda != 0 && moeda >= obj[indice]) {
