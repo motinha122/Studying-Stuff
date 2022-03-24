@@ -1,17 +1,3 @@
-# **Studying Stuff**
-> #### Introduction : My study towards Programming and IT
-> #### Goal : Build a repository based on my studies in many areas 
-
-# **Front-End**
-> ###### Introduction : Study Object : Front-End
-> ###### First Goal : Learn the Basic : Internet,Html,Css and Javascript
-## Front-End Roadmap Progress
-
-Internet | HTML | CSS | Javascript
-:------------ | :-------------| :-------------| :-------------
-:heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: | :clock3:
-
-## At the moment 
-
-> #### 2 HTML and CSS projects done 
-> #### Studying Javascript : In progress 
+<div align="center">
+  <img height=300px width="600px" src="https://user-images.githubusercontent.com/55569181/159952995-cb2151ec-ee4e-4aec-89c8-8c126939282d.png">
+</div>
