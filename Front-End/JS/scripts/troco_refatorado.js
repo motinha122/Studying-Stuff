@@ -1,8 +1,8 @@
 function calcular_troco(valor_pago,valor_compra){
     
-    let troco = valor_pago - valor_compra    
-    let centavos = Math.round((troco % 1) * 100) 
-    let notas = Math.floor(troco)                       
+    const troco = valor_pago - valor_compra    
+    const centavos = Math.round((troco % 1) * 100) 
+    const notas = Math.floor(troco)                       
 
     console.log(`Troco : ${troco.toFixed(2)} Reais`)
     console.log(` `)
@@ -24,6 +24,7 @@ function calcular_troco(valor_pago,valor_compra){
         {valor : 5, quantidade: 0},
         {valor : 1, quantidade: 0},
     ]
+
     function calcular_cedulas_moedas(tipoDinheiro,dinheiro){
 
         tipoDinheiro.forEach(tipoDinheiro => {
@@ -34,10 +35,9 @@ function calcular_troco(valor_pago,valor_compra){
             console.log(`${tipoDinheiro.valor} : ${tipoDinheiro.quantidade}`)
         });   
     }
-
+    
     calcular_cedulas_moedas(cedulas,notas)
     console.log(` `)
     calcular_cedulas_moedas(moedas,centavos)
-    
 }
 calcular_troco(50,12.34)
