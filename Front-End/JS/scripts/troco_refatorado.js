@@ -1,11 +1,11 @@
 function calcular_troco(valor_pago,valor_compra){
     
-    const troco = valor_pago - valor_compra    
-    const centavos = Math.round((troco % 1) * 100) 
-    const notas = Math.floor(troco)                       
+    const troco = valor_pago - valor_compra;    
+    const centavos = Math.round((troco % 1) * 100); 
+    const notas = Math.floor(troco);                       
 
-    console.log(`Troco : ${troco.toFixed(2)} Reais`)
-    console.log(` `)
+    console.log(`Troco : ${troco.toFixed(2)} Reais`);
+    console.log(` `);
 
     let cedulas = [
         {valor : 100, quantidade: 0},
@@ -29,15 +29,16 @@ function calcular_troco(valor_pago,valor_compra){
 
         tipoDinheiro.forEach(tipoDinheiro => {
             while(dinheiro != 0 && dinheiro >= tipoDinheiro.valor){
-                dinheiro -=tipoDinheiro.valor
-                tipoDinheiro.quantidade +=1
+                dinheiro -=tipoDinheiro.valor;
+                tipoDinheiro.quantidade +=1;
             }
-            console.log(`${tipoDinheiro.valor} : ${tipoDinheiro.quantidade}`)
+            console.log(`${tipoDinheiro.valor} : ${tipoDinheiro.quantidade}`);
         });   
     }
-    
-    calcular_cedulas_moedas(cedulas,notas)
-    console.log(` `)
-    calcular_cedulas_moedas(moedas,centavos)
+
+    calcular_cedulas_moedas(cedulas,notas);
+    console.log(` `);
+    calcular_cedulas_moedas(moedas,centavos);
 }
-calcular_troco(50,12.34)
+
+calcular_troco(90,86.55);

@@ -1,0 +1,6 @@
+Método key up para troco
+ao identificar, calcula e mostra na tela
+verificação key up menor que compra
+key up maior que compra executa método
+
+lib js para animação: 
